@@ -1,3 +1,43 @@
+
+/*****HEADER*****/
+
+
+/*****NAV*****/
+ul{
+    list-style: none; /* to delete ・ */
+}
+.nav-bar{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.nav-bar li:first-child {
+    margin-right: auto;
+  }
+
+.nav-bar a{
+    margin: 10px;
+    border-radius: 5px;
+    background: #60B99A;
+    color: #fff;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.nav-bar .logo {
+    background: #4584b1;
+}
+/****** main document******/
+h1{
+    background: rgba(255, 207, 76, 0.61);
+    text-align: center;
+    font-size: 70px;
+    padding: 100px;
+}
+
 .image{
     background-image: url(1_夜空.jpg);
     width: 100%;
@@ -17,4 +57,26 @@
     transform: translate(-50%,-50%);
     margin:0;
     padding:0;
+}
+
+.image2{
+    background-image: url(2_ビル.jpg);
+    width: 100%;
+    height: 370px;
+    opacity: 0.7;
+}
+
+.image2 h2{
+    text-align: center;
+    color: rgba(2, 2, 2, 0.842);
+    font-size: 50px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.image2 p{
+    text-align: center;
+    color: rgba(100, 97, 97, 0.651);
+    font-size: 16px;
+    
 }
